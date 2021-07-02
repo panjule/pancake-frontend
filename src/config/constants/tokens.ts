@@ -3,6 +3,24 @@ const tokens = {
     symbol: 'BNB',
     projectLink: 'https://www.binance.com/',
   },
+  pika: {
+    symbol: 'PIKA',
+    address: {
+      56: '0x7A792E3378878c2de063Af94a1b17E3Bd9825a2b',
+      97: '0xDbB001b26A21df22aB5FAeE44415Ba07e940Fb0b',
+    },
+    decimals: 9,
+    projectLink: 'https://pikapikatoken.com/',
+  },
+  mima: {
+    symbol: 'MIMA',
+    address: {
+      56: '0x3497562454c566C0b55f83d46D84F00E09040Fa6',
+      97: '',
+    },
+    decimals: 9,
+    projectLink: 'https://kopitrading.info/',
+  },
   cake: {
     symbol: 'CAKE',
     address: {
