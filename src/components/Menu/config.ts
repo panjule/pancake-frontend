@@ -13,16 +13,13 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Exchange'),
-        href: 'https://exchange.pancakeswap.finance/#/swap',
+        href: 'https://pikapikatoken.com/swap/#/swap',
       },
       {
         label: t('Liquidity'),
-        href: 'https://exchange.pancakeswap.finance/#/pool',
+        href: 'https://pikapikatoken.com/pool/#/pool',
       },
-      {
-        label: t('LP Migration'),
-        href: 'https://v1exchange.pancakeswap.finance/#/migrate',
-      },
+      
     ],
   },
   {
@@ -76,7 +73,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
     label: t('Info'),
     icon: 'InfoIcon',
-    href: 'https://pancakeswap.info',
+    href: 'http://pikapikatoken.com/pika-pika-token-whitepaper.pdf',
     status: {
       text: t('New').toLocaleUpperCase(),
       color: 'success',
@@ -92,28 +89,28 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'MoreIcon',
     items: [
       {
-        label: t('Contact'),
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        label: t('Telegram'),
+        href: 'https://t.me/PIKAPIKAOFFICIAL',
       },
       {
-        label: t('Voting'),
-        href: '/voting',
+        label: t('Twitter'),
+        href: 'https://twitter.com/pika_token',
       },
       {
         label: t('Github'),
         href: 'https://github.com/pancakeswap',
       },
       {
-        label: t('Docs'),
-        href: 'https://docs.pancakeswap.finance',
+        label: t('Reddit'),
+        href: 'https://www.reddit.com/user/pikapikatoken',
       },
       {
-        label: t('Blog'),
-        href: 'https://pancakeswap.medium.com',
+        label: t('Medium'),
+        href: 'https://medium.com/@pikapikatoken',
       },
       {
-        label: t('Merch'),
-        href: 'https://pancakeswap.creator-spring.com/',
+        label: t('BSCScan'),
+        href: 'https://bscscan.com/address/0x7A792E3378878c2de063Af94a1b17E3Bd9825a2b',
       },
     ],
   },
