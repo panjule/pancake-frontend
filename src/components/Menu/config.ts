@@ -13,11 +13,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Exchange'),
-        href: 'https://pikapikatoken.com/swap/#/swap',
+        href: 'https://pikapikatoken.com/#/swap',
       },
       {
         label: t('Liquidity'),
-        href: 'https://pikapikatoken.com/pool/#/pool',
+        href: 'https://pikapikatoken.com/#/pool',
       },
       
     ],
