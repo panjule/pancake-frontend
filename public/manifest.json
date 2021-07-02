@@ -1,12 +1,12 @@
 {
-  "short_name": "PancakeSwap",
-  "name": "PancakeSwap",
-  "description": "Farm CAKE with Pancake LP Tokens",
+  "short_name": "PIKASwap",
+  "name": "PIKASwap",
+  "description": "Farm PIKA with PIKA LP Tokens",
   "icons": [
     {
       "src": "favicon.ico",
       "type": "image/x-icon",
-      "sizes": "256x256"
+      "sizes": "250x250"
     }
   ],
   "start_url": ".",
